@@ -24,15 +24,8 @@
 
 .banner{
     width:100%;
-    height:100px;
+    height:50px;
     overflow:hidden;
-}
-
-.banner img{
-    width:100%;
-    height:100%;
-    object-fit:cover;   /* Faz a imagem preencher tudo */
-    display:block;
 }
 
 body{
@@ -43,8 +36,8 @@ h1{
     margin: 30px;
     color: #0e293a;
     margin: 100px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .conteudo{
@@ -58,6 +51,18 @@ h1{
 
 h3{
     margin-bottom: 10px;
+    color: #0e293a;
 }
 
+.cont{
+    display: flex;
+    flex-direction: row;
+}
 
+h1{
+    text-align: center;
+}
+
+p{
+    color: #0e293a;
+}
